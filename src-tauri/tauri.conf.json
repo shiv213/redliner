@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Redliner",
+  "version": "0.1.0",
+  "identifier": "app.redliner.desktop",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [{
+      "title": "Redliner",
+      "width": 1180,
+      "height": 780,
+      "minWidth": 720,
+      "minHeight": 620,
+      "center": true,
+      "resizable": true,
+      "fullscreen": false,
+      "dragDropEnabled": false,
+      "backgroundColor": "#090909"
+    }],
+    "security": { "csp": null }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["app"],
+    "icon": ["icons/icon.icns", "icons/icon.png"],
+    "macOS": {
+      "signingIdentity": "-"
+    }
+  }
+}
