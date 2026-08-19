@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#080808" />
+    <meta name="description" content="Redliner grabs online tracks, analyzes BPM and key, and drops them into your DJ folder while you play." />
+    <meta property="og:title" content="Redliner — requests into your crate" />
+    <meta property="og:description" content="Grab a request, analyze it, and get it into DJUCED before the drop." />
+    <meta property="og:image" content="https://redliner.shivvtrivedi.com/assets/redliner-app.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://redliner.shivvtrivedi.com" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Inter+Tight:wght@500;600;700;800&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Redliner — requests into your crate</title>
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Redliner home">
+        <img src="assets/redliner-icon.png" alt="" />
+        <span>Redliner</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="https://github.com/shiv213/redliner">GitHub</a>
+        <a class="nav-download download-link" href="https://github.com/shiv213/redliner/releases/latest">Download</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-copy reveal">
+          <h1>The request came in.<br /><span>Grab it before the drop.</span></h1>
+          <p>Redliner pulls online tracks into your DJ folder, analyzes BPM and key, and keeps the crate synced while you play.</p>
+          <div class="hero-actions">
+            <a class="button button-primary download-link" href="https://github.com/shiv213/redliner/releases/latest">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 15v4h14v-4" /></svg>
+              Download for macOS
+            </a>
+            <span>Apple Silicon · Free and open source</span>
+          </div>
+        </div>
+
+        <div class="product-stage reveal" aria-label="Redliner app preview">
+          <div class="product-halo" aria-hidden="true"></div>
+          <div class="app-window" data-tilt>
+            <img src="assets/redliner-app.png" alt="Redliner showing a synced DJ library with waveform, BPM, key, duration, and search" />
+          </div>
+        </div>
+
+        <div class="waveform hero-waveform" data-waveform aria-hidden="true"></div>
+      </section>
+
+      <section class="workflow" id="how-it-works">
+        <div class="section-intro reveal">
+          <h2>Request to crate<br />in three moves<span>.</span></h2>
+          <p>Online pulls can sound rough. Use a proper release when quality matters.</p>
+        </div>
+
+        <div class="signal-path" aria-hidden="true">
+          <div class="signal-line"></div>
+          <div class="signal-pulse"></div>
+        </div>
+
+        <article class="step step-one reveal">
+          <div class="step-number">1 <i>/</i></div>
+          <div class="step-copy">
+            <h3>Drop any link</h3>
+            <p>YouTube, SoundCloud, Spotify, or an audio file.</p>
+          </div>
+          <div class="drop-demo" aria-hidden="true">
+            <span class="mini-brand"><i></i> Redliner</span>
+            <div class="link-field"><span>youtube.com/watch?v=request</span><b>Paste &amp; download</b></div>
+          </div>
+        </article>
+
+        <article class="step step-two reveal">
+          <div class="analyze-demo" aria-hidden="true">
+            <div class="progress-ring"><span>92%</span></div>
+            <div><b>Analyzing track…</b><span>Downloading</span><span>Converting</span><span>Detecting BPM &amp; key</span></div>
+          </div>
+          <div class="step-number">2 <i>/</i></div>
+          <div class="step-copy">
+            <h3>Redliner handles it</h3>
+            <p>Downloads, converts, analyzes BPM and key, and draws the waveform.</p>
+          </div>
+        </article>
+
+        <article class="step step-three reveal">
+          <div class="step-number">3 <i>/</i></div>
+          <div class="step-copy">
+            <h3>It lands where you play</h3>
+            <p>Your selected DJ folder stays synced and ready for DJUCED.</p>
+          </div>
+          <div class="library-strip" aria-hidden="true">
+            <div class="strip-top"><span><i></i> Synced</span><b>Latest&nbsp;&nbsp; Duration&nbsp;&nbsp; BPM&nbsp;&nbsp; Key</b></div>
+            <div class="strip-track"><span>Quinn XCII – When I Die</span><div data-waveform></div><b>154<small>BPM</small></b><b>F♯m<small>KEY</small></b></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="closer">
+        <div class="closer-wave" data-waveform aria-hidden="true"></div>
+        <img class="closer-mark" src="assets/redliner-icon.png" alt="" aria-hidden="true" />
+        <div class="closer-copy reveal">
+          <h2>For <span>hot knobbers</span><br />and <span>lazy DJs.</span></h2>
+          <p>Take requests. Keep the room moving.</p>
+          <div class="closer-actions">
+            <a class="button button-primary download-link" href="https://github.com/shiv213/redliner/releases/latest">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 15v4h14v-4" /></svg>
+              Download the latest build
+            </a>
+            <a class="button button-secondary" href="https://github.com/shiv213/redliner">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.87c-2.78.6-3.37-1.18-3.37-1.18-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.35 1.09 2.92.83.09-.65.35-1.09.64-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.82c.85 0 1.7.11 2.5.34 1.9-1.29 2.74-1.02 2.74-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.77c0 .27.18.58.69.48A10 10 0 0 0 12 2Z" /></svg>
+              View on GitHub
+            </a>
+          </div>
+          <span class="platform">macOS · Apple Silicon</span>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand" href="#top"><span class="brand-slash"></span><span>Redliner</span></a>
+      <span>© 2026</span>
+      <div class="footer-links">
+        <a href="https://shivvtrivedi.com">Built by Shiv Trivedi</a>
+        <i></i>
+        <a class="coffee" href="https://buymeacoffee.com/shivvtrivedi">Buy me a coffee</a>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
