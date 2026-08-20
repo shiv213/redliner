@@ -12,6 +12,12 @@ Built for macOS and tested with DJUCED. Tracks stay synced with the selected fol
 
 ![Redliner track library](assets/redliner-app.png)
 
+## Watch it work
+
+[![Watch the 24-second Redliner launch video](assets/redliner-launch-poster.jpg)](assets/redliner-launch.mp4)
+
+A request, caught in 24 seconds. Click the frame to play the launch video.
+
 ## Install
 
 [Download the latest macOS installer](https://github.com/shiv213/redliner/releases/latest). Redliner currently ships for Apple Silicon and is not notarized, so macOS may ask you to right-click the app and choose Open the first time.
